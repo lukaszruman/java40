@@ -14,7 +14,7 @@ class Main {
     try {
       Service s = new Service();
       s.addStudent(new Student("Krzysztof", 20));
-      s.addStudent(new Student("Januszzz", 40));
+      s.addStudent(new Student("Januszzfz", 40));
 
       var students = s.getStudents();
       for(Student current : students) {
